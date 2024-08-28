@@ -1,0 +1,5168 @@
+[
+    {
+        "query": "Hey, can you show me a random picture of an axolotl?",
+        "api_unique": [
+            "PublicHolidayNextPublicHolidays",
+            "timeseries_get",
+            "result_get",
+            "getRandomAxolotlImage",
+            "deleteDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "timeseries_get",
+                "description": "Get historical exchange rate data for a specified time range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getRandomAxolotlImage"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm looking for an axolotl that is wild in color and medium in size. Can you help me find some pictures?",
+        "api_unique": [
+            "searchVerses",
+            "CountryCountryInfo",
+            "getSpecificVerse",
+            "searchAxolotlImages",
+            "current_get"
+        ],
+        "api_list": [
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAxolotlImages",
+                "description": "Search for axolotl images based on specific criteria such as color, gender, and size.",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchAxolotlImages"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Can you tell me three interesting facts about axolotls' habitats?",
+        "api_unique": [
+            "getBibleVersionList",
+            "getAxolotlFacts",
+            "jokes_categories_get",
+            "VersionGetVersion",
+            "count"
+        ],
+        "api_list": [
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_categories_get",
+                "description": "Retrieve a list of available categories",
+                "parameters": "{}"
+            },
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getAxolotlFacts"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need to find out about axolotls' physical characteristics. Can you provide some facts?",
+        "api_unique": [
+            "searchVerses",
+            "getAxolotlFacts",
+            "getHolidayDetails",
+            "getFruitByName",
+            "reportAbusiveIP"
+        ],
+        "api_list": [
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getAxolotlFacts"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to see a collection of pictures of albino axolotls. Can you help me with that?",
+        "api_unique": [
+            "searchAxolotlImages",
+            "findCatById",
+            "getFruitByName",
+            "PublicHolidayNextPublicHolidays",
+            "generateRandomImage"
+        ],
+        "api_list": [
+            {
+                "name": "searchAxolotlImages",
+                "description": "Search for axolotl images based on specific criteria such as color, gender, and size.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchAxolotlImages"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm trying to learn more about axolotls for a school project. Could you find me 5 interesting facts about their physical characteristics and provide the source URLs for further reading?",
+        "api_unique": [
+            "embedDashboard",
+            "setPriceAlert",
+            "getPublishedDataFeeds",
+            "result_get",
+            "latest_get"
+        ],
+        "api_list": [
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "setPriceAlert",
+                "description": "Receive notifications when a specific currency pair reaches a certain price.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getAxolotlFacts"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I want to share a unique axolotl fact with my coworkers during our virtual lunch break tomorrow. Can you find me a captivating fact about axolotls that will surprise and entertain them? Please include the source URL as well.",
+        "api_unique": [
+            "getBibleVersionList",
+            "deleteDashboard",
+            "getHolidayDetails",
+            "current_get",
+            "api_v2_facts_random_get"
+        ],
+        "api_list": [
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getAxolotlFacts"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm in the mood for a new anime to watch but don't know where to start. Can you find me some mystery and action anime options that were released in 2020 and have a user rating of at least 4 stars?",
+        "api_unique": [
+            "searchAnime",
+            "updateDataSource",
+            "result_get",
+            "assignUserRole",
+            "verifyUSAddress"
+        ],
+        "api_list": [
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchAnime"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Could you please get details about the anime with ID 123456?",
+        "api_unique": [
+            "api",
+            "findCatWithText",
+            "managePermissions",
+            "PublicHolidayNextPublicHolidaysWorldwide",
+            "api_v2_facts_today_get"
+        ],
+        "api_list": [
+            {
+                "name": "api",
+                "description": "Will return all cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatWithText",
+                "description": "Get random cat saying text",
+                "parameters": "{}"
+            },
+            {
+                "name": "managePermissions",
+                "description": "Manage permissions for dashboards and data sources",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidaysWorldwide",
+                "description": "Returns the upcoming public holidays for the next 7 days",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_today_get",
+                "description": "Get today's useless fact",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getAnimeDetails"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I've been dealing with a malicious IP address trying to access my system. Can you help me report this address, 192.168.1.100, and let's categorize it as \"brute-force\" and \"DDoS\"? Also, include a comment saying \"Multiple failed login attempts and DDoS attacks.\"",
+        "api_unique": [
+            "assignUserRole",
+            "deleteRole",
+            "getBookMetadata",
+            "deleteDashboard",
+            "reportAbusiveIP"
+        ],
+        "api_list": [
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteRole",
+                "description": "Delete a role from the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBookMetadata",
+                "description": "Retrieve metadata for a specific book of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "reportAbusiveIP"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "\"Can you please check if the IP address '123.45.67.89' has any reputation score in the database, and show me the list of associated abuse reports?\"",
+        "api_unique": [
+            "getFruitsByGenus",
+            "getAnimeDetails",
+            "createDataSource",
+            "initiatePasswordlessAuthentication",
+            "checkIPReputation"
+        ],
+        "api_list": [
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAnimeDetails",
+                "description": "Retrieve information about a specific anime series, movie, or episode.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "checkIPReputation"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "\"Can you provide me with the total number of abuse reports in the database for the category 'DDoS' within the past month, including the report IDs and any comments associated with them?\"",
+        "api_unique": [
+            "searchReports",
+            "current_get",
+            "historical_get",
+            "getAxolotlFacts",
+            "getBibleLanguages"
+        ],
+        "api_list": [
+            {
+                "name": "searchReports",
+                "description": "Search the AbuseIPDB database for abuse reports based on various criteria.",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "historical_get",
+                "description": "Get historical exchange rate data for a specific date.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleLanguages",
+                "description": "Retrieve a list of all languages available for Bible versions.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchReports"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "My website was recently targeted by a DDoS attack. I want to check if this IP address, 192.168.2.200, was involved in any abuse reports categorized as \"DDoS\" or \"brute-force\" in the last 90 days.",
+        "api_unique": [
+            "getBookMetadata",
+            "searchReports",
+            "configureAlerts",
+            "synchronizeTracking",
+            "reportAbusiveIP"
+        ],
+        "api_list": [
+            {
+                "name": "getBookMetadata",
+                "description": "Retrieve metadata for a specific book of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchReports",
+                "description": "Search the AbuseIPDB database for abuse reports based on various criteria.",
+                "parameters": "{}"
+            },
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchReports"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "\"I'm trying to find all abuse reports associated with the domain 'example.com' from the past week. Can you help me out with the relevant reports?\"",
+        "api_unique": [
+            "getBibleVersionList",
+            "findCatByTag",
+            "generateRandomImage",
+            "searchReports",
+            "PublicHolidayIsTodayPublicHoliday"
+        ],
+        "api_list": [
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchReports",
+                "description": "Search the AbuseIPDB database for abuse reports based on various criteria.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayIsTodayPublicHoliday",
+                "description": "Is today a public holiday",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchReports"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "To keep an updated list of abusive IP addresses, I'd like to integrate the JSON data feed published on AbuseIPDB with my security tool. Could you retrieve the feed for me, making sure it includes \"malware\" and \"hacking\" categories?",
+        "api_unique": [
+            "getAxolotlFacts",
+            "getStreamingServices",
+            "convert_get",
+            "reportAbusiveIP",
+            "api_v2_facts_today_get"
+        ],
+        "api_list": [
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getStreamingServices",
+                "description": "Retrieve a list of streaming services that offer a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_today_get",
+                "description": "Get today's useless fact",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getPublishedDataFeeds"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Over the past week, I've noticed some strange activity on my network. Can you search for abuse reports that happened between July 1st to July 7th, 2022, and are related to the IP address 10.0.0.2? Please display 20 results per page.",
+        "api_unique": [
+            "CountryCountryInfo",
+            "getBibleLanguages",
+            "checkIPReputation",
+            "getFruitByName",
+            "getAllFruits"
+        ],
+        "api_list": [
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleLanguages",
+                "description": "Retrieve a list of all languages available for Bible versions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchReports"
+        ],
+        "is_call": false
+    },
+    {
+        "query": " My network is being flooded with spam emails from the IP address 200.0.0.25. I want to report it for spam and phishing. In the comment section, add \"Sending multiple spam emails and phishing attempts.\"\n",
+        "api_unique": [
+            "findCatByTag",
+            "getCastAndCrew",
+            "synchronizeTracking",
+            "managePermissions",
+            "PublicHolidayPublicHolidaysV3"
+        ],
+        "api_list": [
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "getCastAndCrew",
+                "description": "Retrieve cast and crew details for a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            },
+            {
+                "name": "managePermissions",
+                "description": "Manage permissions for dashboards and data sources",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "reportAbusiveIP"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I've come across an IP address, 168.0.99.1, that I suspect might be involved in illegal activities. Check its reputation score for me, but only consider the reports within the last 45 days.",
+        "api_unique": [
+            "listServerMembers",
+            "getBibleVersionList",
+            "getFruitByName",
+            "updateDashboard",
+            "current_get"
+        ],
+        "api_list": [
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDashboard",
+                "description": "Modify an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "checkIPReputation"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I just joined a new Discord server and I want my avatar to stand out. Can you create a unique avatar for me with a \"grunge\" style in \"png\" format? My Discord user ID is \"123456789\"",
+        "api_unique": [
+            "findCatByTag",
+            "verifyUSAddress",
+            "result_get",
+            "generateAvatar",
+            "synchronizeTracking"
+        ],
+        "api_list": [
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "generateAvatar"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "My Discord server's current icon is getting old. I'd like to get a fresh look. Please generate a minimal styled server icon for my server with the ID \"987654321\" in JPG format.",
+        "api_unique": [
+            "generateRandomImage",
+            "PublicHolidayPublicHolidaysV3",
+            "updateDataSource",
+            "generateServerIcon",
+            "PublicHolidayNextPublicHolidays"
+        ],
+        "api_list": [
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "generateServerIcon"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm starting a new giveaway contest in my Discord server, but I don't want to include everyone. Can you help me get a list of the first 50 members in my server with ID \"135792468\" excluding the first 10? This way, I can easily select the contestants for my contest.",
+        "api_unique": [
+            "jokes_random_get",
+            "updateDataSource",
+            "standardizeUSAddress",
+            "api",
+            "listServerMembers"
+        ],
+        "api_list": [
+            {
+                "name": "jokes_random_get",
+                "description": "Retrieve a random Chuck Norris joke",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "standardizeUSAddress",
+                "description": "Standardize a given US address to create consistency and accuracy in addressing.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api",
+                "description": "Will return all cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "listServerMembers"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "There's a user named \"MisterArcade\" that I want to connect with on Discord, but I don't know their exact username or ID. Would you be able to search for this user and provide me with their full username and discriminator?",
+        "api_unique": [
+            "getAnimeDetails",
+            "createRole",
+            "generateRandomImage",
+            "LongWeekendLongWeekend",
+            "getPublishedDataFeeds"
+        ],
+        "api_list": [
+            {
+                "name": "getAnimeDetails",
+                "description": "Retrieve information about a specific anime series, movie, or episode.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createRole",
+                "description": "Create a new role in the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchUser"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I need a new wallpaper for my computer. Help me find a random image that I might like. My Discord user ID is \"246813579\", and I prefer nature-themed images in PNG format.",
+        "api_unique": [
+            "VersionGetVersion",
+            "listServerMembers",
+            "jokes_random_category_get",
+            "createDashboard",
+            "searchUser"
+        ],
+        "api_list": [
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDashboard",
+                "description": "Create a new dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "generateRandomImage"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I want to freshen up my profile with a new avatar. How about creating an avatar in a \"minimal\" style for me in \"jpg\" format? My Discord user ID is \"321654987\".",
+        "api_unique": [
+            "assignUserRole",
+            "PublicHolidayIsTodayPublicHoliday",
+            "tags",
+            "findCatById",
+            "checkIPReputation"
+        ],
+        "api_list": [
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayIsTodayPublicHoliday",
+                "description": "Is today a public holiday",
+                "parameters": "{}"
+            },
+            {
+                "name": "tags",
+                "description": "Will return all tags",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            },
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "generateAvatar"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I've lost track of my friend, \"SolarWinds42\", on Discord. Could you help me find their exact username and discriminator by searching for them?",
+        "api_unique": [
+            "getFruitsByGenus",
+            "deleteDataSource",
+            "convert_get",
+            "getSpecificVerse",
+            "findCatWithText"
+        ],
+        "api_list": [
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDataSource",
+                "description": "Delete an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatWithText",
+                "description": "Get random cat saying text",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchUser"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I have an administrator role with the ID \"role123\" that I want to assign to a new user with the user ID \"user321\" and the access token \"abcd1234\". Please do this for me and let me know if it's successful.",
+        "api_unique": [
+            "assignUserRole",
+            "findCatByTag",
+            "getRandomAxolotlImage",
+            "getSpecificVerse",
+            "createDataSource"
+        ],
+        "api_list": [
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "assignUserRole"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I have an access token \"abcd1234.\" Could you list all the available roles in the application for me?",
+        "api_unique": [
+            "searchAnime",
+            "listRoles",
+            "api",
+            "findCatByTag",
+            "getFruitsByOrder"
+        ],
+        "api_list": [
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "listRoles",
+                "description": "List all available roles in the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api",
+                "description": "Will return all cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "listRoles"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to create a new role named \"Content Moderator\" with permissions to edit and delete content. My access token is \"abcd1234.\" Can you create this role and provide the role ID?",
+        "api_unique": [
+            "jokes_random_category_get",
+            "findCatById",
+            "deleteRole",
+            "verifyPasswordlessAuthentication",
+            "createRole"
+        ],
+        "api_list": [
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteRole",
+                "description": "Delete a role from the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createRole",
+                "description": "Create a new role in the application.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "createRole"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I no longer need the \"Guest\" role with the ID \"role456\" in the application. Using the access token \"abcd1234\", can you delete it for me?",
+        "api_unique": [
+            "generateRandomImage",
+            "getRandomCat",
+            "generateAvatar",
+            "searchVerses",
+            "PublicHolidayNextPublicHolidays"
+        ],
+        "api_list": [
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomCat",
+                "description": "Get random cat",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "deleteRole"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'd like to log in without a password this time. Can you send a verification code to my email, jane.doe@example.com, to initiate passwordless authentication?",
+        "api_unique": [
+            "synchronizeTracking",
+            "convert_get",
+            "getRandomCat",
+            "CountryAvailableCountries",
+            "checkIPReputation"
+        ],
+        "api_list": [
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomCat",
+                "description": "Get random cat",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryAvailableCountries",
+                "description": "Get all available countries",
+                "parameters": "{}"
+            },
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "initiatePasswordlessAuthentication"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I received a verification code, \"123456\", to my phone number for passwordless authentication via SMS. Can you verify and authenticate me using this code?",
+        "api_unique": [
+            "AirportApi_getAirport",
+            "getSpecificVerse",
+            "configureAlerts",
+            "embedDashboard",
+            "searchAnime"
+        ],
+        "api_list": [
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "verifyPasswordlessAuthentication"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I just logged in using a passwordless authentication via email, and my email is john.doe@gmail.com. I received the verification code \"456789\"; could you please verify and authenticate me?",
+        "api_unique": [
+            "findCatById",
+            "getPublishedDataFeeds",
+            "PublicHolidayIsTodayPublicHoliday",
+            "getSpecificVerse",
+            "generateAvatar"
+        ],
+        "api_list": [
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayIsTodayPublicHoliday",
+                "description": "Is today a public holiday",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "verifyPasswordlessAuthentication"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Can you search for any holidays related to Easter in Canada in April?",
+        "api_unique": [
+            "initiatePasswordlessAuthentication",
+            "reportAbusiveIP",
+            "synchronizeTracking",
+            "searchHolidays",
+            "searchAxolotlImages"
+        ],
+        "api_list": [
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            },
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchHolidays",
+                "description": "Search for holidays based on keywords, country, and date range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAxolotlImages",
+                "description": "Search for axolotl images based on specific criteria such as color, gender, and size.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchHolidays"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I heard about a holiday called Diwali, but I don't remember which country it belongs to. Can you search for holidays with the keyword \"Diwali\" and tell me about its date, country, and a brief description?",
+        "api_unique": [
+            "deleteDataSource",
+            "searchHolidays",
+            "getStreamingServices",
+            "PublicHolidayIsTodayPublicHoliday",
+            "verifyUSAddress"
+        ],
+        "api_list": [
+            {
+                "name": "deleteDataSource",
+                "description": "Delete an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchHolidays",
+                "description": "Search for holidays based on keywords, country, and date range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getStreamingServices",
+                "description": "Retrieve a list of streaming services that offer a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayIsTodayPublicHoliday",
+                "description": "Is today a public holiday",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchHolidays"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I am curious about how the Chinese New Year is celebrated. Could you find the detailed information about the holiday, including its history, purpose, and traditions?",
+        "api_unique": [
+            "synchronizeTracking",
+            "jokes_search_get",
+            "result_get",
+            "getAllVersesFromChapter",
+            "assignUserRole"
+        ],
+        "api_list": [
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_search_get",
+                "description": "Free text search for Chuck Norris jokes",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllVersesFromChapter",
+                "description": "Retrieve all verses from a specific chapter of a given book of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getHolidayDetails"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Can you tell me the list of available Bible versions using the Bible Digital API?",
+        "api_unique": [
+            "embedDashboard",
+            "jokes_random_get",
+            "reportAbusiveIP",
+            "getBibleVersionList",
+            "getFruitByFamily"
+        ],
+        "api_list": [
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_get",
+                "description": "Retrieve a random Chuck Norris joke",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getBibleVersionList"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to read the content of chapter 3 in the book of Job from the New International Version. Please retrieve this chapter for me, including the chapter number, book name, version name, and all the verses with their respective verse numbers and text.",
+        "api_unique": [
+            "getAllVersesFromChapter",
+            "getAxolotlFacts",
+            "getHolidayDetails",
+            "getBibleVersionList",
+            "getAllFruits"
+        ],
+        "api_list": [
+            {
+                "name": "getAllVersesFromChapter",
+                "description": "Retrieve all verses from a specific chapter of a given book of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getAllVersesFromChapter"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Retrieve the text of Proverbs 18:24 from the Bible Digital API.",
+        "api_unique": [
+            "getSpecificVerse",
+            "getFruitByName",
+            "listServerMembers",
+            "getCastAndCrew",
+            "getFruitsByOrder"
+        ],
+        "api_list": [
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getCastAndCrew",
+                "description": "Retrieve cast and crew details for a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getSpecificVerse"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need to check the text of Revelation 22:17 from the New Living Translation. Could you please show me the content of this specific verse, along with its verse number, book name, chapter number, and version name?",
+        "api_unique": [
+            "getFruitByFamily",
+            "getSpecificVerse",
+            "listServerMembers",
+            "historical_get",
+            "reportAbusiveIP"
+        ],
+        "api_list": [
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            },
+            {
+                "name": "historical_get",
+                "description": "Get historical exchange rate data for a specific date.",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getSpecificVerse"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I remember a verse about 'Love is patient, love is kind', but I don't remember where it's from. Could you search for it in the New International Version in English?",
+        "api_unique": [
+            "getBookMetadata",
+            "getAllVersesFromChapter",
+            "getSpecificVerse",
+            "deleteDashboard",
+            "embedDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "getBookMetadata",
+                "description": "Retrieve metadata for a specific book of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllVersesFromChapter",
+                "description": "Retrieve all verses from a specific chapter of a given book of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "searchVerses"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm interested in expanding my knowledge and reading the Bible in other languages. Can you tell me what languages the Bible is available in?",
+        "api_unique": [
+            "getBibleVersionList",
+            "verifyUSAddress",
+            "setPriceAlert",
+            "createDashboard",
+            "managePermissions"
+        ],
+        "api_list": [
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "setPriceAlert",
+                "description": "Receive notifications when a specific currency pair reaches a certain price.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDashboard",
+                "description": "Create a new dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "managePermissions",
+                "description": "Manage permissions for dashboards and data sources",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getBibleLanguages"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "It seems like the connection string for data source ID 85 has changed. Can you update it with the new string \"postgres://user:password@newhost/dbname\"? Also, change its name to \"Updated Sales Data\".",
+        "api_unique": [
+            "api",
+            "updateDataSource",
+            "getRandomAxolotlImage",
+            "api_v2_facts_today_get",
+            "searchHolidays"
+        ],
+        "api_list": [
+            {
+                "name": "api",
+                "description": "Will return all cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_today_get",
+                "description": "Get today's useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchHolidays",
+                "description": "Search for holidays based on keywords, country, and date range.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "updateDataSource"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I no longer require the data source with ID 93 in my project. Can you delete it for me, please?",
+        "api_unique": [
+            "searchAnime",
+            "createDataSource",
+            "getPublishedDataFeeds",
+            "getRandomAxolotlImage",
+            "deleteDataSource"
+        ],
+        "api_list": [
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDataSource",
+                "description": "Delete an existing data source",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "deleteDataSource"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I've been missing out on important updates because I'm not receiving any alerts. Could you configure daily email notifications for me? Please use my work email, it's john.doe@company.com.",
+        "api_unique": [
+            "jokes_search_get",
+            "getHolidayDetails",
+            "configureAlerts",
+            "updateDashboard",
+            "generateServerIcon"
+        ],
+        "api_list": [
+            {
+                "name": "jokes_search_get",
+                "description": "Free text search for Chuck Norris jokes",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDashboard",
+                "description": "Modify an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "configureAlerts"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to set up a MySQL data source for my new project. Call it \"MySQL_DS_ProjectA\" and use the connection string \"mysql://user:pass@localhost/db\".",
+        "api_unique": [
+            "current_get",
+            "createDataSource",
+            "standardizeUSAddress",
+            "findCatById",
+            "searchAnime"
+        ],
+        "api_list": [
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "standardizeUSAddress",
+                "description": "Standardize a given US address to create consistency and accuracy in addressing.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "createDataSource"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need weekly data alerts sent to my email at janedoe@company.com. Could you set that up?",
+        "api_unique": [
+            "managePermissions",
+            "getRandomAxolotlImage",
+            "latest_get",
+            "searchHolidays",
+            "getAllFruits"
+        ],
+        "api_list": [
+            {
+                "name": "managePermissions",
+                "description": "Manage permissions for dashboards and data sources",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchHolidays",
+                "description": "Search for holidays based on keywords, country, and date range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "configureAlerts"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm sending a package to my friend in New York, but I'm not sure if I have the correct address. Can you check if this address is valid and deliverable? Here's the address: 123 Main St, Apt 4B, New York, NY, 10001.",
+        "api_unique": [
+            "latest_get",
+            "verifyUSAddress",
+            "searchHolidays",
+            "getPublishedDataFeeds",
+            "findCatById"
+        ],
+        "api_list": [
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchHolidays",
+                "description": "Search for holidays based on keywords, country, and date range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "verifyUSAddress"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm organizing a mailing list for my business, and I want to make sure all the addresses are standardized. Can you help me standardize this address? 456 Elm Street, Suite 789, Los Angeles, CA, 90012.",
+        "api_unique": [
+            "updateDataSource",
+            "listRoles",
+            "jokes_categories_get",
+            "generateRandomImage",
+            "standardizeUSAddress"
+        ],
+        "api_list": [
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "listRoles",
+                "description": "List all available roles in the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_categories_get",
+                "description": "Retrieve a list of available categories",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "standardizeUSAddress",
+                "description": "Standardize a given US address to create consistency and accuracy in addressing.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "standardizeUSAddress"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Can you check if today is a public holiday in China?",
+        "api_unique": [
+            "getPublishedDataFeeds",
+            "result_get",
+            "updateDataSource",
+            "PublicHolidayIsTodayPublicHoliday",
+            "assignUserRole"
+        ],
+        "api_list": [
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayIsTodayPublicHoliday",
+                "description": "Is today a public holiday",
+                "parameters": "{}"
+            },
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "PublicHolidayIsTodayPublicHoliday"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Get the country info for China.",
+        "api_unique": [
+            "setPriceAlert",
+            "verifyUSAddress",
+            "AirportApi_getAirport",
+            "CountryCountryInfo",
+            "getFruitByName"
+        ],
+        "api_list": [
+            {
+                "name": "setPriceAlert",
+                "description": "Receive notifications when a specific currency pair reaches a certain price.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "CountryCountryInfo"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Get the list of all available countries for public holiday information.",
+        "api_unique": [
+            "PublicHolidayIsTodayPublicHoliday",
+            "assignUserRole",
+            "getFruitsByOrder",
+            "CountryAvailableCountries",
+            "listServerMembers"
+        ],
+        "api_list": [
+            {
+                "name": "PublicHolidayIsTodayPublicHoliday",
+                "description": "Is today a public holiday",
+                "parameters": "{}"
+            },
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryAvailableCountries",
+                "description": "Get all available countries",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "CountryAvailableCountries"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to know the version of the Nager.Date library being used. Can you fetch that for me?",
+        "api_unique": [
+            "getFruitsByGenus",
+            "api_v2_facts_random_get",
+            "searchUser",
+            "PublicHolidayPublicHolidaysV3",
+            "VersionGetVersion"
+        ],
+        "api_list": [
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            },
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "VersionGetVersion"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need to find out if there are any long weekends in the United States in 2024. Can you help me with that?",
+        "api_unique": [
+            "searchAnime",
+            "LongWeekendLongWeekend",
+            "createRole",
+            "reportAbusiveIP",
+            "embedDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "createRole",
+                "description": "Create a new role in the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "LongWeekendLongWeekend"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Find out the next public holidays for the Great Britain.",
+        "api_unique": [
+            "PublicHolidayNextPublicHolidays",
+            "jokes_search_get",
+            "convert_get",
+            "count",
+            "searchUser"
+        ],
+        "api_list": [
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_search_get",
+                "description": "Free text search for Chuck Norris jokes",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "PublicHolidayNextPublicHolidays"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm curious about the public holidays in Australia in 2023. Can you fetch the list for me?",
+        "api_unique": [
+            "CountryCountryInfo",
+            "convert_get",
+            "LongWeekendLongWeekend",
+            "PublicHolidayPublicHolidaysV3",
+            "getFruitByName"
+        ],
+        "api_list": [
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            },
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "PublicHolidayPublicHolidaysV3"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Get the upcoming public holidays worldwide for the next 7 days.",
+        "api_unique": [
+            "searchUser",
+            "checkIPReputation",
+            "PublicHolidayNextPublicHolidaysWorldwide",
+            "getStreamingServices",
+            "searchAnime"
+        ],
+        "api_list": [
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            },
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidaysWorldwide",
+                "description": "Returns the upcoming public holidays for the next 7 days",
+                "parameters": "{}"
+            },
+            {
+                "name": "getStreamingServices",
+                "description": "Retrieve a list of streaming services that offer a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "PublicHolidayNextPublicHolidaysWorldwide"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a trip to Japan next year. Can you find out if there are any long weekends in Japan in 2023? It would be great to align my trip with a long weekend.",
+        "api_unique": [
+            "configureAlerts",
+            "findCatWithText",
+            "PublicHolidayPublicHolidaysV3",
+            "LongWeekendLongWeekend",
+            "jokes_random_get"
+        ],
+        "api_list": [
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatWithText",
+                "description": "Get random cat saying text",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            },
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_get",
+                "description": "Retrieve a random Chuck Norris joke",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "LongWeekendLongWeekend"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm curious about the public holidays in different countries. Could you show me the public holidays for the next week worldwide?",
+        "api_unique": [
+            "count",
+            "getFruitByFamily",
+            "assignUserRole",
+            "AirportApi_getAirport",
+            "findCatByTag"
+        ],
+        "api_list": [
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            },
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "PublicHolidayNextPublicHolidaysWorldwide"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm working on a project about different countries. Can you provide me with information about France, such as its official name, region, and neighboring countries?",
+        "api_unique": [
+            "findCatWithText",
+            "searchUser",
+            "latest_get",
+            "timeseries_get",
+            "jokes_random_category_get"
+        ],
+        "api_list": [
+            {
+                "name": "findCatWithText",
+                "description": "Get random cat saying text",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "timeseries_get",
+                "description": "Get historical exchange rate data for a specified time range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "CountryCountryInfo"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm interested in knowing the upcoming public holidays in Germany for the next year. Could you fetch that information for me?",
+        "api_unique": [
+            "searchUser",
+            "getFruitByFamily",
+            "getFruitByName",
+            "PublicHolidayPublicHolidaysV3",
+            "listServerMembers"
+        ],
+        "api_list": [
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "PublicHolidayNextPublicHolidays"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm creating a calendar for my international team. Can you help me find the public holidays in the USA for 2023?",
+        "api_unique": [
+            "generateServerIcon",
+            "findCatByTag",
+            "PublicHolidayNextPublicHolidays",
+            "getHolidayDetails",
+            "createRole"
+        ],
+        "api_list": [
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createRole",
+                "description": "Create a new role in the application.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "PublicHolidayPublicHolidaysV3"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm planning a road trip across Europe. Can you provide me with information about Italy, including its common name, official name, and the countries it shares borders with?",
+        "api_unique": [
+            "synchronizeTracking",
+            "api_v2_facts_random_get",
+            "AirportApi_getAirport",
+            "getHolidayDetails",
+            "createRole"
+        ],
+        "api_list": [
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createRole",
+                "description": "Create a new role in the application.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "CountryCountryInfo"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm planning a surprise visit to my friend in Germany. I need to know when the next long weekend of the year 2023 is coming up, so I can plan my trip.",
+        "api_unique": [
+            "managePermissions",
+            "jokes_search_get",
+            "verifyPasswordlessAuthentication",
+            "verifyUSAddress",
+            "currencies_get"
+        ],
+        "api_list": [
+            {
+                "name": "managePermissions",
+                "description": "Manage permissions for dashboards and data sources",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_search_get",
+                "description": "Free text search for Chuck Norris jokes",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "currencies_get",
+                "description": "Get information about supported currencies.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "LongWeekendLongWeekend"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Can you find the website URL for the airport with the ICAO code \"EDDF\" in Germany?",
+        "api_unique": [
+            "configureAlerts",
+            "currencies_get",
+            "getBibleVersionList",
+            "getHolidayDetails",
+            "AirportApi_getAirport"
+        ],
+        "api_list": [
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "currencies_get",
+                "description": "Get information about supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "AirportApi_getAirport"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Please retrieve the name and last update date for the airport with the ICAO code \"EDDM\" in Germany.",
+        "api_unique": [
+            "createRole",
+            "AirportApi_getAirport",
+            "standardizeUSAddress",
+            "result_get",
+            "getBibleLanguages"
+        ],
+        "api_list": [
+            {
+                "name": "createRole",
+                "description": "Create a new role in the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            },
+            {
+                "name": "standardizeUSAddress",
+                "description": "Standardize a given US address to create consistency and accuracy in addressing.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleLanguages",
+                "description": "Retrieve a list of all languages available for Bible versions.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "AirportApi_getAirport"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Get the ICAO code and website URL for the airport named \"Frankfurt Airport\" in Germany.",
+        "api_unique": [
+            "AirportApi_getAirport",
+            "PublicHolidayNextPublicHolidays",
+            "setPriceAlert",
+            "findCatByTag",
+            "jokes_random_category_get"
+        ],
+        "api_list": [
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "setPriceAlert",
+                "description": "Receive notifications when a specific currency pair reaches a certain price.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "AirportApi_getAirport"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need the last update date and name of the airport with the ICAO code \"EDDB\" in Germany.",
+        "api_unique": [
+            "LongWeekendLongWeekend",
+            "getFruitsByOrder",
+            "searchUser",
+            "current_get",
+            "AirportApi_getAirport"
+        ],
+        "api_list": [
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "AirportApi_getAirport"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Could you fetch the website URL and ICAO code for the airport called \"Munich Airport\" in Germany?",
+        "api_unique": [
+            "embedDashboard",
+            "searchUser",
+            "getRandomAxolotlImage",
+            "api_v2_facts_today_get",
+            "getPublishedDataFeeds"
+        ],
+        "api_list": [
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_today_get",
+                "description": "Get today's useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "AirportApi_getAirport"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm planning a trip to Germany and I want to know more about the airport I'll be landing at. Can you find the name and website of the airport with the ICAO code 'EDDF'?",
+        "api_unique": [
+            "assignUserRole",
+            "currencies_get",
+            "getCastAndCrew",
+            "verifyPasswordlessAuthentication",
+            "updateDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "currencies_get",
+                "description": "Get information about supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getCastAndCrew",
+                "description": "Retrieve cast and crew details for a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDashboard",
+                "description": "Modify an existing dashboard",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "AirportApi_getAirport"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm doing a research on German airports. Could you provide me the name and website of the airport that has the ICAO code 'EDDM'?",
+        "api_unique": [
+            "searchVerses",
+            "getPublishedDataFeeds",
+            "updateDashboard",
+            "embedDashboard",
+            "getFruitsByGenus"
+        ],
+        "api_list": [
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDashboard",
+                "description": "Modify an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "AirportApi_getAirport"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm having a party tonight and want to entertain my guests with some Chuck Norris jokes. Can you find a random joke for me to tell them?",
+        "api_unique": [
+            "checkIPReputation",
+            "jokes_random_get",
+            "api",
+            "getAxolotlFacts",
+            "getAnimeDetails"
+        ],
+        "api_list": [
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_get",
+                "description": "Retrieve a random Chuck Norris joke",
+                "parameters": "{}"
+            },
+            {
+                "name": "api",
+                "description": "Will return all cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAnimeDetails",
+                "description": "Retrieve information about a specific anime series, movie, or episode.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "jokes_random_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm writing a blog post about Chuck Norris and his impact on pop culture. I need a joke related to 'music'. Can you find one for me?",
+        "api_unique": [
+            "findCatById",
+            "createDataSource",
+            "currencies_get",
+            "jokes_random_category_get",
+            "searchAnime"
+        ],
+        "api_list": [
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "currencies_get",
+                "description": "Get information about supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "jokes_random_category_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm doing a presentation on Chuck Norris for my film class. Can you help me find a joke from the 'movie' category to lighten the mood?",
+        "api_unique": [
+            "verifyUSAddress",
+            "verifyPasswordlessAuthentication",
+            "jokes_random_category_get",
+            "getRandomCat",
+            "searchAnime"
+        ],
+        "api_list": [
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomCat",
+                "description": "Get random cat",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "jokes_random_category_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a trivia night and need some Chuck Norris jokes to include. Can you search for jokes that mention 'Texas'?",
+        "api_unique": [
+            "current_get",
+            "createDataSource",
+            "searchVerses",
+            "getAllFruits",
+            "PublicHolidayNextPublicHolidays"
+        ],
+        "api_list": [
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "jokes_search_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm working on a Chuck Norris-themed board game and need some jokes for the cards. Can you find jokes that involve 'sports'?",
+        "api_unique": [
+            "generateAvatar",
+            "listRoles",
+            "getFruitsByGenus",
+            "reportAbusiveIP",
+            "generateServerIcon"
+        ],
+        "api_list": [
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "listRoles",
+                "description": "List all available roles in the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "jokes_search_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm hosting a trivia night at my place this evening. Could you fetch me a random useless fact that I can use to stump my friends? I want something they'll never guess.",
+        "api_unique": [
+            "synchronizeTracking",
+            "configureAlerts",
+            "verifyUSAddress",
+            "searchVerses",
+            "api_v2_facts_random_get"
+        ],
+        "api_list": [
+            {
+                "name": "synchronizeTracking",
+                "description": "Synchronize an anime's watch progress with a tracking service.",
+                "parameters": "{}"
+            },
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "api_v2_facts_random_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm feeling a bit bored. Can you cheer me up with a random, useless fact? I'm in the mood for something quirky and unexpected.",
+        "api_unique": [
+            "getAllFruits",
+            "api_v2_facts_random_get",
+            "PublicHolidayIsTodayPublicHoliday",
+            "count",
+            "searchVerses"
+        ],
+        "api_list": [
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayIsTodayPublicHoliday",
+                "description": "Is today a public holiday",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "api_v2_facts_random_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm writing a blog post about interesting trivia. Can you provide me with a random fact that I can include? It should be something that most people wouldn't know.",
+        "api_unique": [
+            "listServerMembers",
+            "PublicHolidayNextPublicHolidays",
+            "getAllVersesFromChapter",
+            "api_v2_facts_random_get",
+            "reportAbusiveIP"
+        ],
+        "api_list": [
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllVersesFromChapter",
+                "description": "Retrieve all verses from a specific chapter of a given book of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "api_v2_facts_random_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm starting a new daily ritual of learning something new every day. Can you tell me today's useless fact?",
+        "api_unique": [
+            "VersionGetVersion",
+            "getFruitByFamily",
+            "PublicHolidayNextPublicHolidaysWorldwide",
+            "getCastAndCrew",
+            "getFruitsByGenus"
+        ],
+        "api_list": [
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidaysWorldwide",
+                "description": "Returns the upcoming public holidays for the next 7 days",
+                "parameters": "{}"
+            },
+            {
+                "name": "getCastAndCrew",
+                "description": "Retrieve cast and crew details for a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "api_v2_facts_today_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm writing a daily newsletter and I want to include a fun fact in each issue. Can you give me today's useless fact that I can share with my subscribers?",
+        "api_unique": [
+            "latest_get",
+            "searchAnime",
+            "searchHolidays",
+            "count",
+            "updateDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchHolidays",
+                "description": "Search for holidays based on keywords, country, and date range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDashboard",
+                "description": "Modify an existing dashboard",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "api_v2_facts_today_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm planning a trip to Paris next week. Could you find out what the current weather is there? And please, make sure the temperature is in Fahrenheit, I'm more familiar with that.",
+        "api_unique": [
+            "jokes_random_category_get",
+            "getAxolotlFacts",
+            "getBibleVersionList",
+            "current_get",
+            "result_get"
+        ],
+        "api_list": [
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleVersionList",
+                "description": "Retrieve a list of all available versions of the Bible in a specific language.",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "current_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm heading out for a run in San Francisco. Can you tell me what the current temperature is and how it feels outside? Also, I'd like to know the humidity and visibility.",
+        "api_unique": [
+            "current_get",
+            "findCatWithText",
+            "assignUserRole",
+            "latest_get",
+            "generateRandomImage"
+        ],
+        "api_list": [
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatWithText",
+                "description": "Get random cat saying text",
+                "parameters": "{}"
+            },
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "current_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a picnic this weekend in London. Could you check the current weather for me? I'm particularly interested in the wind speed and direction.",
+        "api_unique": [
+            "result_get",
+            "current_get",
+            "configureAlerts",
+            "getAllFruits",
+            "verifyUSAddress"
+        ],
+        "api_list": [
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "current_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm a science teacher preparing a lesson on weather patterns. Can you get me the current weather for Denver? I need the data in scientific units.",
+        "api_unique": [
+            "VersionGetVersion",
+            "searchReports",
+            "getSpecificVerse",
+            "initiatePasswordlessAuthentication",
+            "PublicHolidayNextPublicHolidaysWorldwide"
+        ],
+        "api_list": [
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchReports",
+                "description": "Search the AbuseIPDB database for abuse reports based on various criteria.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidaysWorldwide",
+                "description": "Returns the upcoming public holidays for the next 7 days",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "current_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "It's getting colder here. Can you find the current temperature in Fahrenheit for Toronto? I want to see if I need to bring a jacket.",
+        "api_unique": [
+            "searchAxolotlImages",
+            "jokes_random_category_get",
+            "CountryCountryInfo",
+            "searchReports",
+            "deleteDataSource"
+        ],
+        "api_list": [
+            {
+                "name": "searchAxolotlImages",
+                "description": "Search for axolotl images based on specific criteria such as color, gender, and size.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchReports",
+                "description": "Search the AbuseIPDB database for abuse reports based on various criteria.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDataSource",
+                "description": "Delete an existing data source",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "current_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm organizing an outdoor event next weekend. Is it possible to get the UV index and visibility in Los Angeles during that time?",
+        "api_unique": [
+            "PublicHolidayPublicHolidaysV3",
+            "getRandomCat",
+            "getAllFruits",
+            "getPublishedDataFeeds",
+            "listRoles"
+        ],
+        "api_list": [
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomCat",
+                "description": "Get random cat",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "listRoles",
+                "description": "List all available roles in the application.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "current_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm planning a beach day in Miami this weekend. Could you check the weather for me? I'd like to know if it's going to be sunny and what the UV index will be. Also, could you tell me what the sea temperature will be?",
+        "api_unique": [
+            "api_v2_facts_random_get",
+            "initiatePasswordlessAuthentication",
+            "configureAlerts",
+            "createDashboard",
+            "AirportApi_getAirport"
+        ],
+        "api_list": [
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "configureAlerts",
+                "description": "Configure email notifications for data alerts and updates",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDashboard",
+                "description": "Create a new dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "current_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Can you find the current temperature in New York City in Fahrenheit using the weather API?",
+        "api_unique": [
+            "tags",
+            "result_get",
+            "findCatWithText",
+            "jokes_search_get",
+            "getFruitsByOrder"
+        ],
+        "api_list": [
+            {
+                "name": "tags",
+                "description": "Will return all tags",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatWithText",
+                "description": "Get random cat saying text",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_search_get",
+                "description": "Free text search for Chuck Norris jokes",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Please help me calculate the square root of 625 using the math API.",
+        "api_unique": [
+            "reportAbusiveIP",
+            "CountryCountryInfo",
+            "result_get",
+            "getAxolotlFacts",
+            "updateDataSource"
+        ],
+        "api_list": [
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need to convert 5 miles to kilometers. Can you use the unit conversion API to help me with that?",
+        "api_unique": [
+            "searchReports",
+            "result_get",
+            "generateRandomImage",
+            "getFruitsByGenus",
+            "deleteDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "searchReports",
+                "description": "Search the AbuseIPDB database for abuse reports based on various criteria.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Could you check the population of Tokyo for me using the demographics API?",
+        "api_unique": [
+            "VersionGetVersion",
+            "setPriceAlert",
+            "initiatePasswordlessAuthentication",
+            "result_get",
+            "getFruitsByGenus"
+        ],
+        "api_list": [
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "setPriceAlert",
+                "description": "Receive notifications when a specific currency pair reaches a certain price.",
+                "parameters": "{}"
+            },
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to know the capital city of Australia. Can you use the geography API to find that out?",
+        "api_unique": [
+            "searchAxolotlImages",
+            "convert_get",
+            "getSpecificVerse",
+            "result_get",
+            "listServerMembers"
+        ],
+        "api_list": [
+            {
+                "name": "searchAxolotlImages",
+                "description": "Search for axolotl images based on specific criteria such as color, gender, and size.",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Hey, I'm trying to help my daughter with her homework and we're stuck on this math problem. Can you find out what the square root of 256 is?",
+        "api_unique": [
+            "embedDashboard",
+            "getCastAndCrew",
+            "getStreamingServices",
+            "result_get",
+            "managePermissions"
+        ],
+        "api_list": [
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "getCastAndCrew",
+                "description": "Retrieve cast and crew details for a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getStreamingServices",
+                "description": "Retrieve a list of streaming services that offer a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "managePermissions",
+                "description": "Manage permissions for dashboards and data sources",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm working on a science project and I need to know how many moons Jupiter has. Can you look that up for me?",
+        "api_unique": [
+            "createDataSource",
+            "embedDashboard",
+            "result_get",
+            "searchAxolotlImages",
+            "deleteDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAxolotlImages",
+                "description": "Search for axolotl images based on specific criteria such as color, gender, and size.",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a trip to Paris and I'm curious about the weather. Can you find out what the average temperature is in Paris in July?",
+        "api_unique": [
+            "count",
+            "initiatePasswordlessAuthentication",
+            "PublicHolidayNextPublicHolidays",
+            "generateAvatar",
+            "searchVerses"
+        ],
+        "api_list": [
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchVerses",
+                "description": "Search for verses in the Bible containing a specific text.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm doing a presentation on famous scientists. Can you find out when Albert Einstein was born?",
+        "api_unique": [
+            "getPublishedDataFeeds",
+            "checkIPReputation",
+            "VersionGetVersion",
+            "PublicHolidayPublicHolidaysV3",
+            "getSpecificVerse"
+        ],
+        "api_list": [
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            },
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            },
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm trying to lose weight and I'm counting calories. Can you tell me how many calories are in a medium-sized apple?",
+        "api_unique": [
+            "checkIPReputation",
+            "VersionGetVersion",
+            "LongWeekendLongWeekend",
+            "convert_get",
+            "CountryCountryInfo"
+        ],
+        "api_list": [
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            },
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "result_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Can you find me information about a fruit called \"mango\" using the API? I want to know its nutritional values like carbohydrates, protein, fat, calories, and sugar.",
+        "api_unique": [
+            "PublicHolidayNextPublicHolidays",
+            "getFruitByName",
+            "current_get",
+            "deleteDashboard",
+            "getAxolotlFacts"
+        ],
+        "api_list": [
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitByName"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Please fetch all the fruits available in the API. I want to explore the variety and learn about different fruit options.",
+        "api_unique": [
+            "getCastAndCrew",
+            "getFruitByName",
+            "current_get",
+            "generateRandomImage",
+            "getAllFruits"
+        ],
+        "api_list": [
+            {
+                "name": "getCastAndCrew",
+                "description": "Retrieve cast and crew details for a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            },
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getAllFruits"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm curious about fruits belonging to the \"Rosaceae\" family. Can you retrieve information about a fruit from this family using the API? I'd like to know its name, genus, order, and nutritional values.",
+        "api_unique": [
+            "getFruitByFamily",
+            "LongWeekendLongWeekend",
+            "searchAnime",
+            "generateRandomImage",
+            "jokes_categories_get"
+        ],
+        "api_list": [
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            },
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_categories_get",
+                "description": "Retrieve a list of available categories",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitByFamily"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm trying to find fruits that belong to the \"Citrus\" genus. Could you help me retrieve a list of all such fruits using the API? I'm interested in their names, families, and nutritional values.",
+        "api_unique": [
+            "getCastAndCrew",
+            "embedDashboard",
+            "getFruitsByGenus",
+            "getFruitsByOrder",
+            "getHolidayDetails"
+        ],
+        "api_list": [
+            {
+                "name": "getCastAndCrew",
+                "description": "Retrieve cast and crew details for a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitsByGenus"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning to make a fruit salad, and I want to include fruits from the \"Sapindales\" order. Can you fetch a list of fruits belonging to this order using the API? I need their names, families, and nutritional values.",
+        "api_unique": [
+            "createDashboard",
+            "getSpecificVerse",
+            "api_v2_facts_today_get",
+            "verifyPasswordlessAuthentication",
+            "getFruitsByOrder"
+        ],
+        "api_list": [
+            {
+                "name": "createDashboard",
+                "description": "Create a new dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "getSpecificVerse",
+                "description": "Retrieve a specific verse from a particular book and chapter of the Bible.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_today_get",
+                "description": "Get today's useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitsByOrder"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a themed dinner and want to serve fruits from the 'Rosales' order. Can you provide me with a list of fruits in this order?",
+        "api_unique": [
+            "getFruitsByOrder",
+            "searchAxolotlImages",
+            "updateDashboard",
+            "checkIPReputation",
+            "initiatePasswordlessAuthentication"
+        ],
+        "api_list": [
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAxolotlImages",
+                "description": "Search for axolotl images based on specific criteria such as color, gender, and size.",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDashboard",
+                "description": "Modify an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "checkIPReputation",
+                "description": "Query the AbuseIPDB database for the reputation score of a given IP address or domain.",
+                "parameters": "{}"
+            },
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitsByOrder"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm interested in learning more about the 'Citrus' genus. Can you provide me with a list of fruits that belong to this genus?",
+        "api_unique": [
+            "count",
+            "PublicHolidayNextPublicHolidaysWorldwide",
+            "searchUser",
+            "setPriceAlert",
+            "verifyPasswordlessAuthentication"
+        ],
+        "api_list": [
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidaysWorldwide",
+                "description": "Returns the upcoming public holidays for the next 7 days",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchUser",
+                "description": "Search for a Discord user by their username or ID.",
+                "parameters": "{}"
+            },
+            {
+                "name": "setPriceAlert",
+                "description": "Receive notifications when a specific currency pair reaches a certain price.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitsByGenus"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I've been told that fruits from the 'Solanaceae' family are not good for my health. Can you find out which fruits belong to this family so I can avoid them?",
+        "api_unique": [
+            "verifyPasswordlessAuthentication",
+            "jokes_random_category_get",
+            "getAllFruits",
+            "verifyUSAddress",
+            "PublicHolidayPublicHolidaysV3"
+        ],
+        "api_list": [
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitByFamily"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm curious about the nutritional value of an apple. Can you find out how many calories, carbohydrates, proteins, fats, and sugars an apple has?",
+        "api_unique": [
+            "searchAnime",
+            "generateServerIcon",
+            "latest_get",
+            "findCatByTag",
+            "embedDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getFruitByName"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Hey, can you help me find a random cat picture? I need one with a width of 500 pixels and a height of 300 pixels. It would be great if you could return it in JSON format.",
+        "api_unique": [
+            "generateAvatar",
+            "count",
+            "getRandomCat",
+            "historical_get",
+            "PublicHolidayNextPublicHolidays"
+        ],
+        "api_list": [
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomCat",
+                "description": "Get random cat",
+                "parameters": "{}"
+            },
+            {
+                "name": "historical_get",
+                "description": "Get historical exchange rate data for a specific date.",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayNextPublicHolidays",
+                "description": "Returns the upcoming public holidays for the next 365 days for the given country",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getRandomCat"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm looking for a cat picture with the tag 'cute'. Could you find me a random one? Make sure it has a width of 800 pixels and a height of 600 pixels.",
+        "api_unique": [
+            "current_get",
+            "count",
+            "findCatByTag",
+            "timeseries_get",
+            "getPublishedDataFeeds"
+        ],
+        "api_list": [
+            {
+                "name": "current_get",
+                "description": "Get current weather",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "timeseries_get",
+                "description": "Get historical exchange rate data for a specified time range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getPublishedDataFeeds",
+                "description": "Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "findCatByTag"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to surprise my friend with a cat picture that says 'Happy Birthday!' Can you find a random cat image with that text?",
+        "api_unique": [
+            "findCatWithText",
+            "historical_get",
+            "generateServerIcon",
+            "getAxolotlFacts",
+            "listServerMembers"
+        ],
+        "api_list": [
+            {
+                "name": "findCatWithText",
+                "description": "Get random cat saying text",
+                "parameters": "{}"
+            },
+            {
+                "name": "historical_get",
+                "description": "Get historical exchange rate data for a specific date.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAxolotlFacts",
+                "description": "Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.",
+                "parameters": "{}"
+            },
+            {
+                "name": "listServerMembers",
+                "description": "List the members of a Discord server.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "findCatWithText"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need a list of all the available cat tags. Can you retrieve them for me?",
+        "api_unique": [
+            "CountryCountryInfo",
+            "tags",
+            "embedDashboard",
+            "deleteDashboard",
+            "PublicHolidayPublicHolidaysV3"
+        ],
+        "api_list": [
+            {
+                "name": "CountryCountryInfo",
+                "description": "Get country info for the given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "tags",
+                "description": "Will return all tags",
+                "parameters": "{}"
+            },
+            {
+                "name": "embedDashboard",
+                "description": "Embed a dashboard into another application",
+                "parameters": "{}"
+            },
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "PublicHolidayPublicHolidaysV3",
+                "description": "Get public holidays",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "tags"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm curious about how many cats are available in the database. Can you count them for me?",
+        "api_unique": [
+            "findCatByTag",
+            "updateDataSource",
+            "getBibleLanguages",
+            "AirportApi_getAirport",
+            "count"
+        ],
+        "api_list": [
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "getBibleLanguages",
+                "description": "Retrieve a list of all languages available for Bible versions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "AirportApi_getAirport",
+                "description": "Parameters: {\"icao_code\": \"Required. string. The ICAO code of the target airport located in Germany.\"}\nOutput: A successful response.\n - Format: application/json\n - Structure: #ApiEndpointsAirportResponse",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "count"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm feeling a bit down and could use a pick-me-up. Could you find me a random picture of a cat? Make sure it's a cute one!",
+        "api_unique": [
+            "getBibleLanguages",
+            "getFruitsByOrder",
+            "historical_get",
+            "listRoles",
+            "getFruitsByGenus"
+        ],
+        "api_list": [
+            {
+                "name": "getBibleLanguages",
+                "description": "Retrieve a list of all languages available for Bible versions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "historical_get",
+                "description": "Get historical exchange rate data for a specific date.",
+                "parameters": "{}"
+            },
+            {
+                "name": "listRoles",
+                "description": "List all available roles in the application.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByGenus",
+                "description": "Get fruits by genus",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getRandomCat"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm working on a presentation about cats and need some visuals. Can you get me a picture of a cat that's exactly 500 pixels wide and 300 pixels high? I'd prefer it if the cat was a tabby.",
+        "api_unique": [
+            "tags",
+            "latest_get",
+            "generateAvatar",
+            "getFruitByFamily",
+            "verifyPasswordlessAuthentication"
+        ],
+        "api_list": [
+            {
+                "name": "tags",
+                "description": "Will return all tags",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyPasswordlessAuthentication",
+                "description": "Verify the user's passwordless authentication using the provided verification code.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "getRandomCat"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I need a funny image for a birthday card. Can you find me a picture of a cat with the text 'Happy Birthday' on it?",
+        "api_unique": [
+            "PublicHolidayNextPublicHolidaysWorldwide",
+            "LongWeekendLongWeekend",
+            "latest_get",
+            "generateAvatar",
+            "searchHolidays"
+        ],
+        "api_list": [
+            {
+                "name": "PublicHolidayNextPublicHolidaysWorldwide",
+                "description": "Returns the upcoming public holidays for the next 7 days",
+                "parameters": "{}"
+            },
+            {
+                "name": "LongWeekendLongWeekend",
+                "description": "Get long weekends for a given country",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchHolidays",
+                "description": "Search for holidays based on keywords, country, and date range.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "findCatWithText"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm planning a surprise party for my friend who loves cats. Could you help me design an invitation? I'd like a picture of a cat with a party hat, and the text \"You're invited to a purr-fect party!\" on it.",
+        "api_unique": [
+            "findCatByTag",
+            "getFruitsByOrder",
+            "timeseries_get",
+            "jokes_categories_get",
+            "CountryAvailableCountries"
+        ],
+        "api_list": [
+            {
+                "name": "findCatByTag",
+                "description": "Get random cat by tag",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "timeseries_get",
+                "description": "Get historical exchange rate data for a specified time range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "jokes_categories_get",
+                "description": "Retrieve a list of available categories",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryAvailableCountries",
+                "description": "Get all available countries",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "findCatWithText"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm starting a blog about my life as a cat owner. Could you provide me with a cat gif for my first post? I'd also like to add a caption saying \"Welcome to my cat-tastic journey!\".",
+        "api_unique": [
+            "getRandomAxolotlImage",
+            "createDataSource",
+            "CountryAvailableCountries",
+            "historical_get",
+            "updateDashboard"
+        ],
+        "api_list": [
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryAvailableCountries",
+                "description": "Get all available countries",
+                "parameters": "{}"
+            },
+            {
+                "name": "historical_get",
+                "description": "Get historical exchange rate data for a specific date.",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDashboard",
+                "description": "Modify an existing dashboard",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "findCatWithText"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm making a birthday card for my niece who loves kittens. Could you find a cute kitten picture for me? And could you add the text \"Happy Birthday!\" on it?",
+        "api_unique": [
+            "deleteDashboard",
+            "getHolidayDetails",
+            "getRandomAxolotlImage",
+            "assignUserRole",
+            "listRoles"
+        ],
+        "api_list": [
+            {
+                "name": "deleteDashboard",
+                "description": "Delete an existing dashboard",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomAxolotlImage",
+                "description": "Retrieve a random axolotl image with information on the image source.",
+                "parameters": "{}"
+            },
+            {
+                "name": "assignUserRole",
+                "description": "Assign a role to a user.",
+                "parameters": "{}"
+            },
+            {
+                "name": "listRoles",
+                "description": "List all available roles in the application.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "findCatWithText"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "Hey, can you help me find out the current exchange rate for USD to EUR using the currency API? I need to know how many Euros I'll get for 100 US dollars.",
+        "api_unique": [
+            "result_get",
+            "updateDataSource",
+            "latest_get",
+            "api",
+            "initiatePasswordlessAuthentication"
+        ],
+        "api_list": [
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            },
+            {
+                "name": "updateDataSource",
+                "description": "Modify an existing data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api",
+                "description": "Will return all cats",
+                "parameters": "{}"
+            },
+            {
+                "name": "initiatePasswordlessAuthentication",
+                "description": "Initiate a passwordless authentication process for a user.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "latest_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "Could you please fetch the historical exchange rate data for GBP to CAD on January 1, 2022, using the currency API? I want to analyze the currency fluctuations for that day.",
+        "api_unique": [
+            "generateRandomImage",
+            "getAllFruits",
+            "getRandomCat",
+            "getFruitsByOrder",
+            "historical_get"
+        ],
+        "api_list": [
+            {
+                "name": "generateRandomImage",
+                "description": "Generate a custom image that matches the user's taste.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            },
+            {
+                "name": "getRandomCat",
+                "description": "Get random cat",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "historical_get",
+                "description": "Get historical exchange rate data for a specific date.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "historical_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a trip to Japan next month. Can you retrieve the exchange rate data for USD to JPY from October 1, 2021, to November 30, 2021, using the currency API? I want to compare the rates and estimate my expenses.",
+        "api_unique": [
+            "getAllFruits",
+            "timeseries_get",
+            "verifyUSAddress",
+            "generateServerIcon",
+            "result_get"
+        ],
+        "api_list": [
+            {
+                "name": "getAllFruits",
+                "description": "Get all fruits",
+                "parameters": "{}"
+            },
+            {
+                "name": "timeseries_get",
+                "description": "Get historical exchange rate data for a specified time range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "verifyUSAddress",
+                "description": "Verify a given US address to ensure it meets USPS standards and is deliverable.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "result_get",
+                "description": "Get short answer from Wolfram Alpha",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "timeseries_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I need to convert 500 Euros to US dollars. Can you use the currency API to convert the amount from EUR to USD for me?",
+        "api_unique": [
+            "createDataSource",
+            "getFruitByFamily",
+            "getAnimeDetails",
+            "findCatById",
+            "convert_get"
+        ],
+        "api_list": [
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByFamily",
+                "description": "Get a fruit by family",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAnimeDetails",
+                "description": "Retrieve information about a specific anime series, movie, or episode.",
+                "parameters": "{}"
+            },
+            {
+                "name": "findCatById",
+                "description": "Get cat by id",
+                "parameters": "{}"
+            },
+            {
+                "name": "convert_get",
+                "description": "Convert an amount from one currency to another.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "convert_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I want to know the current exchange rates for USD, EUR, and GBP. Can you fetch the real-time rates for these currencies using the currency API?",
+        "api_unique": [
+            "setPriceAlert",
+            "VersionGetVersion",
+            "searchReports",
+            "getFruitsByOrder",
+            "latest_get"
+        ],
+        "api_list": [
+            {
+                "name": "setPriceAlert",
+                "description": "Receive notifications when a specific currency pair reaches a certain price.",
+                "parameters": "{}"
+            },
+            {
+                "name": "VersionGetVersion",
+                "description": "Get version of the used Nager.Date library",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchReports",
+                "description": "Search the AbuseIPDB database for abuse reports based on various criteria.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "latest_get",
+                "description": "Get real-time exchange rates for all supported currencies.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "latest_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a vacation to Thailand next year. Can you fetch the exchange rate data for THB to USD from January 1, 2023, to December 31, 2023, using the currency API? I want to estimate my budget.",
+        "api_unique": [
+            "generateAvatar",
+            "timeseries_get",
+            "CountryAvailableCountries",
+            "getAnimeDetails",
+            "currencies_get"
+        ],
+        "api_list": [
+            {
+                "name": "generateAvatar",
+                "description": "Create a unique avatar based on the user's preferences.",
+                "parameters": "{}"
+            },
+            {
+                "name": "timeseries_get",
+                "description": "Get historical exchange rate data for a specified time range.",
+                "parameters": "{}"
+            },
+            {
+                "name": "CountryAvailableCountries",
+                "description": "Get all available countries",
+                "parameters": "{}"
+            },
+            {
+                "name": "getAnimeDetails",
+                "description": "Retrieve information about a specific anime series, movie, or episode.",
+                "parameters": "{}"
+            },
+            {
+                "name": "currencies_get",
+                "description": "Get information about supported currencies.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "timeseries_get"
+        ],
+        "is_call": true
+    },
+    {
+        "query": "I'm planning a trip to Japan next month. Could you find out how much 1000 US dollars would be in Japanese yen using the current exchange rate?",
+        "api_unique": [
+            "jokes_random_category_get",
+            "getFruitsByOrder",
+            "tags",
+            "searchAnime",
+            "getFruitByName"
+        ],
+        "api_list": [
+            {
+                "name": "jokes_random_category_get",
+                "description": "Retrieve a random Chuck Norris joke by category",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitsByOrder",
+                "description": "Get fruits by order",
+                "parameters": "{}"
+            },
+            {
+                "name": "tags",
+                "description": "Will return all tags",
+                "parameters": "{}"
+            },
+            {
+                "name": "searchAnime",
+                "description": "Search for anime based on a query string and optional filters.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getFruitByName",
+                "description": "Get a fruit information by its name",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "convert_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I need to send some money to my friend in France. Can you tell me how much 200 US dollars would convert to in Euros?",
+        "api_unique": [
+            "PublicHolidayNextPublicHolidaysWorldwide",
+            "createDataSource",
+            "getHolidayDetails",
+            "api_v2_facts_random_get",
+            "count"
+        ],
+        "api_list": [
+            {
+                "name": "PublicHolidayNextPublicHolidaysWorldwide",
+                "description": "Returns the upcoming public holidays for the next 7 days",
+                "parameters": "{}"
+            },
+            {
+                "name": "createDataSource",
+                "description": "Create a new data source",
+                "parameters": "{}"
+            },
+            {
+                "name": "getHolidayDetails",
+                "description": "Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.",
+                "parameters": "{}"
+            },
+            {
+                "name": "api_v2_facts_random_get",
+                "description": "Get random useless fact",
+                "parameters": "{}"
+            },
+            {
+                "name": "count",
+                "description": "Count how many cats",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "convert_get"
+        ],
+        "is_call": false
+    },
+    {
+        "query": "I'm a forex trader and I need to know the current exchange rates for the US dollar against the Euro, British pound, and Japanese yen. Can you get this information for me?",
+        "api_unique": [
+            "tags",
+            "currencies_get",
+            "getStreamingServices",
+            "reportAbusiveIP",
+            "generateServerIcon"
+        ],
+        "api_list": [
+            {
+                "name": "tags",
+                "description": "Will return all tags",
+                "parameters": "{}"
+            },
+            {
+                "name": "currencies_get",
+                "description": "Get information about supported currencies.",
+                "parameters": "{}"
+            },
+            {
+                "name": "getStreamingServices",
+                "description": "Retrieve a list of streaming services that offer a specific anime.",
+                "parameters": "{}"
+            },
+            {
+                "name": "reportAbusiveIP",
+                "description": "Report an abusive IP address or domain to the AbuseIPDB database.",
+                "parameters": "{}"
+            },
+            {
+                "name": "generateServerIcon",
+                "description": "Generate an icon for a Discord server based on the user's style preferences.",
+                "parameters": "{}"
+            }
+        ],
+        "api_label": [
+            "latest_get"
+        ],
+        "is_call": false
+    }
+]
