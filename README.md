@@ -9,7 +9,7 @@ Look Before You Leap: Towards Decision-Aware and Generalizable Tool-Usage for La
 <img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License">
 
 <h4> |<a href="https://arxiv.org/abs/2402.16696"> 📑 Paper </a> |
-<a href="https://arxiv.org/abs/2402.16696"> 🐱 GitHub </a> |
+<a href="https://github.com/Ericmututu/ToolDEER"> 🐱 GitHub </a> |
 </h4>
 
 </div>
