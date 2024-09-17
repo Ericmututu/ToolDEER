@@ -8,10 +8,6 @@ Look Before You Leap: Towards Decision-Aware and Generalizable Tool-Usage for La
 <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"> 
 <img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License">
 
-<h4> |<a href="https://arxiv.org/abs/2402.16696"> 📑 Paper </a> |
-<a href="https://github.com/Ericmututu/ToolDEER"> 🐱 GitHub </a> |
-</h4>
-
 </div>
 
 
@@ -105,16 +101,3 @@ The comparison of diverse tool sampling strategies and corresponding sampling ra
 </p>
 
 
-## Citation
-If you find this work is helpful to your research or applications, please feel free to cite our work.
-```
-@article{gui2024look,
-  title={Look Before You Leap: Towards Decision-Aware and Generalizable Tool-Usage for Large Language Models},
-  author={Gui, Anchun and Li, Jian and Dai, Yong and Du, Nan and Xiao, Han},
-  journal={arXiv preprint arXiv:2402.16696},
-  year={2024}
-}
-```
-
-## Acknowledgments
-This project partially refers to [ToolLLM](https://github.com/OpenBMB/ToolBench) and [ToolAlpaca](https://github.com/tangqiaoyu/ToolAlpaca). Thanks for their wonderful work!
